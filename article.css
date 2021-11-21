@@ -1,0 +1,55 @@
+.articles{
+  text-align: center;
+  padding-top: 30px;
+}
+.articles_title {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+    
+}
+
+.articles_items {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+.article {
+    width: 20%;
+    height: 200px;
+    border-radius: 5px;
+    
+    
+}
+.article_name{
+    font-size: 20px;
+    line-height: 28px;
+
+}
+.a__slogan--btn {
+    color: chocolate;
+    text-decoration: none;
+    padding: 1px 3px;
+    border-radius:5px;
+    background: black;
+    
+}
+@media only screen and (max-width: 1000px){
+    .articles_items{
+        justify-content: center;
+
+    }
+    
+    
+    .article {
+        width: 200px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    
+}

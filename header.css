@@ -1,0 +1,67 @@
+.header {
+    height: 450px;
+    width: 100%;
+    background-color:burlywood;
+    position: relative;
+}
+.header_texture{
+    width: 100%;
+    height: 98%;
+    position:absolute;
+    top:0;left:0;
+    background: url('T.png')center no-repeat;
+    background-size: cover;
+    z-index: indexe 1;
+    opacity: 0,5;
+   
+   
+}
+    
+    
+.header_mask {
+   position:absolute; 
+   bottom: 0;
+   background: 0 0;
+   height: 42px;
+   width: 100%;
+   z-index: 10;
+   
+}
+
+.header_navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_navbar_logo_title{
+    color: antiquewhite;
+    font-size: 28px;
+}
+.header_navbar_menu_link{
+    margin-left: 30px;
+    text-decoration:none ;
+
+}
+.header__slogan {
+    
+    text-align-last:center;
+    margin-top: 80px;
+}
+.h__slogan--title {
+    color: blanchedalmond;
+    font-size: 30px;
+    text-transform:uppercase;
+    font-family:'anton';
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.h__slogan--btn{
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10PX;
+    background: black;
+}

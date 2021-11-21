@@ -1,0 +1,46 @@
+.header.header_article {
+
+    height: 450px;
+    width: 100%;
+    background-color:burlywood;
+    position: relative;
+
+}
+.header_article .header_texture {
+
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;left: 0px;;
+    background: url('c.png')center no-repeat;
+    background-size: cover;
+    z-index: indexe 1;
+    opacity: 0,5;
+}
+
+.images_title{
+    margin-bottom: 50px;
+}
+.image_item{
+    width: 250px;
+    min-height: 50px;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: chartreuse;
+    
+}
+.images{
+    text-align: center;
+  padding-top: 30px;
+}
+.img{
+    width: 20%;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-left: 500px;
+    margin-right: 40px;
+    text-decoration: none;
+}

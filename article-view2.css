@@ -1,0 +1,24 @@
+
+.header.header_article {
+    height: 450px;
+    width: 100%;
+    background-color:burlywood;
+    position: relative;
+
+}
+.header_article .header_texture {
+
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;left: 0px;;
+    background: url('y.png')center no-repeat;
+    background-size: cover;
+    z-index: indexe 1;
+    opacity: 0,5;
+}
+.article__view2-container{
+    width: 60%;
+    margin: auto;
+
+}
